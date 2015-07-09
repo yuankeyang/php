@@ -1,0 +1,6 @@
+#navtab li a{outline:none;}
+#logintab li a{outline:none;}
+#logintab li{border: 1px solid;}
+#logintab .active{background-color: #eee;}
+.left-nav{margin: 0;padding: 0;height: 100%;width:20%;float: left;}
+.right-content{margin: 0;padding: 0;height:100%;width: 78%;float: right;}

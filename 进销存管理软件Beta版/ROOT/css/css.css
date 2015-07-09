@@ -1,0 +1,79 @@
+html{overflow:auto;}
+body{height:100%;overflow:auto;}
+
+.login{ width:600px; height:516px; margin:auto; margin-top:100px;}
+.loginTop{ width:600px; height:80px; float:left;}
+.loginCont{ width:600px; height:400px; float:left; background-color:#C9E0FF;}
+.loginCont input{ width:200px; height:20px;}
+.loginName{ width:600px; height:60px; line-height:60px; float:left; text-align:center; margin-top:36px;}
+.loginPass{ width:600px; height:60px; line-height:60px; float:left; text-align:center;}
+.loginBotton{ width:600px; height:60px; margin-top:36px; float:left; text-align:center;}
+.loginBotton input{ width:100px; height:30px; font-size:14px;}
+.loginBottom{ width:600px; height:36px; float:left; background-color:#64A0D4; font-size:14px; text-align:center; line-height:36px;}
+
+.top{ width:100%; height:80px; float:left; background-color:#3279cb; color:#ffffff;}
+.top a{ color:#ffffff; text-decoration:none;}
+.top a:hover{ color:#ffffff; text-decoration:underline;}
+.topLogo{ width:317px; height:80px; float:left;}
+.topLoginname{ width:15%; float:right; height:80px; line-height:80px; text-align:center;}
+.topUpPass{ width:10%; float:right; height:80px; line-height:80px; text-align:center;}
+.topZhuce{ width:10%; float:right; height:80px; line-height:80px; text-align:center;}
+.topLogout{ width:10%; float:right; height:80px; line-height:80px; text-align:center;}
+
+.cont{ width:100%; height:auto; float:left; margin-top:0px;  background:#ecf0f5;overflow:auto;}
+.left{ margin:0;padding:0;width:19%; height:auto; float:left; BORDER-right: #CCC 1px solid; BACKGROUND: #f9fafc; }
+.leftLeft{ margin:0;padding:0; width:100%; height:auto; margin:auto; padding-top:0px; padding-bottom:15px;}
+.menuMax{ width:100%; height:40px; line-height:40px; font-size:18px; font-weight:bold; text-align:center; color:#000000;}
+.menuMin{ width:100%; height:30px; line-height:30px; font-size:14px; text-align:center;}
+.menuMin a{ color:#000000; text-decoration:none;}
+.menuMin a:hover{ color:#000000; text-decoration:underline;}
+
+
+.right{ margin:0;padding:0; width:80%; height:auto; float:left; }
+.rightRight{margin:0;padding:0; width:100%; height:auto; margin:auto; padding-top:5px; padding-bottom:15px;}
+.rightTop{ width:96%;height:51px; line-height:51px; margin-left:30px; margin-bottom:15px; text-align:left; font-size:14px; font-weight:bold; color:#3279cb; letter-spacing:2px; float:left;}
+.rightText{ width:50%; padding-left:35%; height:50px; text-align:left; line-height:50px; font-size:14px; float:left;}
+.rightBotton{ width:92%; height:100px; text-align:center; float:left; margin-top:55px;}
+.rightBotton input{ width:246px; height:48px; font-size:14px; background-image::url(images/btn/btnbg.png); background-color:transparent;}
+.rightCont{ width:100%; height:auto; float:left;}
+
+.right_shouru_jine{ width:70%; height:50px; float:left; margin-left:30%;}
+.right_shouru_riqi{ width:70%; height:50px; float:left; margin-left:30%;}
+.right_shouru_shuoming{ width:70%; height:auto; float:left; margin-left:30%; overflow:hidden;}
+.right_zhichu_jine{ width:70%; height:50px; float:left; margin-left:30%;}
+.right_zhichu_riqi{ width:70%; height:50px; float:left; margin-left:30%;}
+.right_zhichu_shuoming{ width:70%; height:auto; float:left; margin-left:30%; overflow:hidden;}
+
+.zhuce{ width:600px; height:516px; margin:auto; margin-top:100px;}
+.zhuceTop{ width:600px; height:80px; float:left;}
+.zhuceCont{ width:600px; height:400px; float:left; background-color:#C9E0FF;}
+.zhuceCont input{ width:200px; height:20px;}
+.number{ width:600px; height:60px; line-height:60px; float:left; text-align:center; margin-top:36px;}
+.code{ width:600px; height:60px; line-height:60px; float:left; text-align:center;}
+.zhuceBotton{ width:600px; height:60px; margin-top:36px; float:left; text-align:center;}
+.zhuceBotton input{ width:100px; height:30px; font-size:14px;}
+.zhuceBottom{ width:600px; height:36px; float:left; background-color:#64A0D4; font-size:14px; text-align:center; line-height:36px;}
+
+.bottom{ width:100%; height:35px; float:left; font-size:12px; line-height:35px; margin-top:0px; font-weight:bold; padding-bottom:0px; color:#fff; background-color:#3C8DC4; text-align:center;}
+
+
+/****************input text ************************/
+
+.cssInput{   
+  border:1px solid #CCC;   
+   border:1px solid #CCC \9;/*IE*/   
+   width:300px;   
+   height:25px;/*非IE高度*/   
+   height:25px \9;/*IE高度*/   
+   padding-left:5px; /*all*/   
+   line-height:25px \9;/*IE*/   
+   -moz-border-radius:3px;/*Firefox*/   
+    -webkit-border-radius:3px;/*Safari和Chrome*/   
+    border-radius:3px;/*IE9+*/   
+   background-color: #fff;   
+    outline:none;   
+}   
+.cssInput:focus{/*IE8+*/   
+  border-color:#78BAED;   
+  [;outline:1px solid #78BAED;/*chrome*/   
+}

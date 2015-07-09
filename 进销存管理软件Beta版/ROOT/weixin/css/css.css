@@ -1,0 +1,30 @@
+body{ margin:0px; width:100%; height:100%;}
+
+.top{ width:100%; height:60px; line-height:60px; text-align:center; float:left; font-size:1.8em; background:#0B94D8; color:#ffffff;}
+
+.cont{ width:100%; height:auto; overflow:hidden; float:left;}
+
+.login{ width:100%; height:auto; overflow:hidden; float:left; margin-top:30px;}
+.login_list{ width:80%; padding-left:20%; float:left; height:60px;}
+.login_list input{ width:200px; height:30px;}
+.login_botton{ width:100%; height:100px; float:left; text-align:center;}
+.login_botton input{ width:100px; height:40px;}
+
+.main{ width:100%; height:auto; overflow:hidden; float:left; margin-top:30px;}
+.main_title{ width:100%; height:60px; line-height:60px; float:left;}
+.main_title_left{ width:75%; height:60px; float:left; margin-left:5%;}
+.main_title_right{ width:20%; height:60px; float:left; text-align:center;}
+.main_title_right a{ text-decoration:none; color:blue;}
+.main_list{ width:50%; height:80px; text-align:center; float:left; margin-top:15px; margin-bottom:15px;}
+.main_list input{ width:80px; height:80px;}
+
+.cont_top{ width:100%; height:60px; line-height:60px; float:left; border-bottom:1px dashed #cccccc;}
+.cont_top_fanhui{ width:20%; height:60px; text-align:center; float:left;}
+.cont_top_fanhui a{ text-decoration:none; color:blue;}
+.cont_top_title{ width:60%; height:60px; text-align:center; margin-right:20%; float:left; font-size:1.2em;}
+
+.sale{ width:100%; height:auto; overflow:hidden; float:left; margin-top:30px;}
+.sale_list{ width:100%; height:auto; overflow:hidden; float:left; border-bottom:1px dashed #cccccc; padding-bottom:15px; margin-bottom:30px;}
+.sale_list_list{ width:90%; height:auto; overflow:hidden; float:left; padding-left:5%; padding-right:5%; margin-bottom:10px;}
+
+.bottom{ width:100%; height:60px; line-height:60px; text-align:center; float:left; font-size:0.8em; background:#eaeaea; margin-top:30px;}
